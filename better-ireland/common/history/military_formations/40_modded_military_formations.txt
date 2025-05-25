@@ -1,0 +1,15 @@
+MILITARY_FORMATIONS = {
+    c:IRE ?= {
+        create_military_formation = {
+            type = army
+            hq_region = sr:region_north_sea_coast
+            name = Óglaigh_na_hÉireann
+            
+            combat_unit = {
+                type = unit_type:combat_unit_type_line_infantry
+                state_region = s:STATE_LEINSTER
+                count = 5
+            }
+        }
+    }
+}
